@@ -1,0 +1,85 @@
+body
+{
+	background-image: url(https://www.advertgallery.com/wp-content/uploads/2017/11/dominos-pizza-all-new-dominos-now-more-affordable-revised-gst-5-ad-times-of-india-mumbai-15-11-2017.png);
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.mycontainer
+{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: red;
+}
+nav div a 
+{   
+    font-size: 18px;
+    padding: 14px;
+    color: #ffffff;
+}
+nav div a:hover
+{
+    border-radius: 15px; 
+    border-style: inset;
+    text-decoration: none;
+    color: #ffffff;
+}
+a
+{
+    text-decoration: none;
+}
+.main a 
+{
+    position: relative;
+    left: 250px;
+}
+.main input
+{
+    position: relative;
+    left: 250px;
+    font-size: 18px;
+}
+.loginLeft a
+{
+    position: relative;
+    left: 1300px;
+}
+.slidebarCss{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: blu;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5px;
+  background-color: #ffffff;
+}
+
+.slidebarCss a{
+  color: black;
+  font-size: 18px;
+  display: block;
+  transition: 0.3s;
+}
+
+.slidebarCss a:hover {
+  background-color: red;
+  color: #ffffff;
+}
+
+.slidebarCss .closebtn{
+  position: absolute;
+  top: 0;
+  right: 18px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .slidebarCss {padding-top: 15px;}
+  .slidebarCss a {font-size: 18px;}
+}
+/*----------------------------------------------------------------------------------------------------------------*/
