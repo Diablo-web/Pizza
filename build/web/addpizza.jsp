@@ -22,7 +22,7 @@
         %>
         <br>
         <div class="formcontainer">
-            <h3>Add Pizza Details</h3>
+            <h2>Add Pizza Info</h2>
             <div>
             
             <c:if test="${pi==null}">
@@ -38,7 +38,7 @@
                     <div>
                         <table>
                             <tr>
-                                <td><input type="text" name="pizza_name" value="${pi.pizza_name}" placeholder="Enter Pizza Name" size="54"/></td>
+                                <td><input type="text" name="pizza_name" value="${pi.pizza_name}" placeholder="Enter Pizza Name" size="60"/></td>
                             </tr>
                         </table>
                     </div>
@@ -59,7 +59,7 @@
                     <div>
                         <table>
                             <tr>
-                                <td><input type="text" name="link" value="${pi.link}" placeholder="Enter the link of the pizza website " size="54"/></td>
+                                <td><input type="text" name="link" value="${pi.link}" placeholder="Enter the link of the pizza website " size="60"/></td>
                             </tr>
                         </table>
                     </div>
@@ -67,7 +67,7 @@
                     <div>
                         <table>
                             <tr>
-                                <td><input type="text" name="imglink" value="${pi.imglink}" placeholder="Enter your Pizza Image link" size="54"/></td>
+                                <td><input type="text" name="imglink" value="${pi.imglink}" placeholder="Enter your Pizza Image link" size="60"/></td>
                             </tr>
                         </table>
                     </div>
@@ -75,7 +75,7 @@
                     <div>
                         <table>
                             <tr>
-                                <td><input type="tel" name="quantity" value="${pi.quantity}" placeholder="Enter your pizza quantity" size="54"/></td>
+                                <td><input type="tel" name="quantity" value="${pi.quantity}" placeholder="Enter your pizza quantity" size="60"/></td>
                             </tr>
                         </table>
                     </div>
@@ -83,7 +83,7 @@
                     <div>
                         <table>
                             <tr>
-                                <td><input type="number" name="price" value="${pi.price}" placeholder="Enter your Pizza price" size="54"/></td>
+                                <td><input type="number" name="price" value="${pi.price}" placeholder="Enter your Pizza price" size="60"/></td>
                             </tr>
                         </table>
                     </div>
